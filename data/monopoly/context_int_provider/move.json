@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "board_position"
+    },
+    {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "roll1"
+    },
+    {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "roll2"
+    }
+  ]
+}

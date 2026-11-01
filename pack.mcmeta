@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "description": "Monopoly for Minecraft 26.3",
+    "min_format": 121,
+    "max_format": 121
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement"
+      }
+    ]
+  }
+}

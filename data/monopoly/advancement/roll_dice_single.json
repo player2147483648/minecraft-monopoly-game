@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "rolled": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "dice": "single"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "monopoly:game/items/dice_single"
+  }
+}

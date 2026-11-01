@@ -1,0 +1,2 @@
+tellraw @a [{color:red,text:"Pay "}, {text:"M",color:red,strikethrough:true},{storage:"monopoly:spaces",nbt:"current_space.price"}, " for ", {storage:"monopoly:spaces",nbt:"current_space.name"},"!"]
+function monopoly:game/turn/start_turn
